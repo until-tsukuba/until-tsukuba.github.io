@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <title>{{ title }} - UNTIL.</title>
+</head>
+<body>
+  {% include "./components/header.njk" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "./components/footer.njk" %}
+</body>
+</html>
