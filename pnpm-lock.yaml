@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@11ty/eleventy': ^2.0.0
+  '@11ty/eleventy-plugin-rss': ^1.2.0
 
 devDependencies:
   '@11ty/eleventy': 2.0.0
+  '@11ty/eleventy-plugin-rss': 1.2.0
 
 packages:
 
@@ -32,6 +34,16 @@ packages:
       - bufferutil
       - supports-color
       - utf-8-validate
+    dev: true
+
+  /@11ty/eleventy-plugin-rss/1.2.0:
+    resolution: {integrity: sha512-YzFnSH/5pObcFnqZ2sAQ782WmpOZHj1+xB9ydY/0j7BZ2jUNahn53VmwCB/sBRwXA/Fbwwj90q1MLo01Ru0UaQ==}
+    dependencies:
+      debug: 4.3.4
+      posthtml: 0.16.6
+      posthtml-urls: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@11ty/eleventy-utils/1.0.1:
