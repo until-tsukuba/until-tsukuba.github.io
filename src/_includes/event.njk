@@ -1,0 +1,34 @@
+{% extends "./page.njk" %}
+
+{% block title %}
+{{ name }}
+{% endblock %}
+
+{% block main %}
+<article class="h-event" itemscope itemtype="https://schema.org/Event">
+    <h1 class="p-name" itemprop="name">{{ name }}</h1>
+    <aside>
+        <p>
+            開始:
+            <time class="dt-start" datetime="{{ dtstart }}" itemprop="startDate">{{ dtstart }}</time>
+        </p>
+        <p>
+            終了:
+            <time class="dt-end" datetime="{{ dtend }}" itemprop="endDate">{{ dtend }}</time>
+        </p>
+        <p>
+            場所:
+            <span class="p-location" itemprop="location">{{ location }}</span>
+        </p>
+        <p class="p-summary">
+            {{ summary }}
+        </p>
+    </aside>
+    <div class="p-description e-content">
+        {{ content | safe }}
+    </div>
+    <aside>
+        <p><a href="/events">イベント一覧に戻る</a></p>
+    </aside>
+</article>
+{% endblock %}
