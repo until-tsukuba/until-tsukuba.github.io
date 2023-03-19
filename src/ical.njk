@@ -1,0 +1,21 @@
+---
+permalink: events.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//until./until-tsukuba.github.io//NONSGML v1.0//JP
+X-WR-TIMEZONE:UTC
+{% for event in events %}
+BEGIN:VEVENT
+DTSTART;TZID=UTC;VALUE=DATE-TIME:{{ event.dtstart | date | dateToISO8601 }}
+DTEND;TZID=UTC;VALUE=DATE-TIME:{{ event.dtend | date | dateToISO8601 }}
+SUMMARY:{{ event.name }}
+{% if event.location !== undefined %}
+LOCATION:{{ event.location }}
+{% endif %}
+{% if event.url !== undefined %}
+URL:{{ event.url }}
+{% endif %}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
