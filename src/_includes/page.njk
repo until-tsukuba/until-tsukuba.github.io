@@ -1,16 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head prefix="og:http://ogp.me/ns#">
   <meta charset="UTF-8"/>
   <link rel="icon" size="32x32" href="{{ site.icon | htmlBaseUrl }}"/>
   <meta name="generator" content="{{ eleventy.generator }}" />
-  <title>{{ title }} - UNTIL.</title>
+  <title>
+    {% block title %}{{ title }}{% endblock %} - UNTIL.
+  </title>
   {% include "components/ogp.njk" %}
+  {% block head %}
+  {% endblock %}
 </head>
 <body>
   {% include "./components/header.njk" %}
   <main>
+  {% block main %}
     {{ content | safe }}
+  {% endblock %}
   </main>
   {% include "./components/footer.njk" %}
 </body>
