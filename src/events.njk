@@ -11,6 +11,16 @@ title: イベント一覧
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <article>
       <h1>{{ post.data.name }}</h1>
+      <p>{{ post.data.summary }}</p>
+      <p>
+        <time datetime="{{ post.data.dtstart }}">
+            {{ post.data.dtstart }}
+        </time>
+        〜
+        <time datetime="{{ post.data.dtend }}">
+            {{ post.data.dtend }}
+        </time>
+      </p>
       <a href="{{ absolutePostUrl }}">詳細</a>
     </article>
   {%- endfor %}
