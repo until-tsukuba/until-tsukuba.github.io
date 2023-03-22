@@ -6,6 +6,7 @@ title: イベント一覧
 <article>
   <h1>イベント一覧</h1>
   <p>feedとして購読する場合は、<a href="{{ "/feed.xml" | htmlBaseUrl }}" rel="alternative" type="application/atom+xml">こちら</a>から。</p>
+  <p>カレンダーとして購読したい方は、<a href="{{ ./events.ics | htmlBaseUrl }}" type="text/calendar">こちら</a>からiCalendar形式でも利用できます。</p>
   {%- for post in collections.event | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <article>
