@@ -2,7 +2,7 @@
 {
     "layout": "event",
     "tags": "event",
-    "name": "UNTIL. LT #0x02",
+    "title": "UNTIL. LT #0x02",
     "dtstart": "2023-06-01T19:00:00+09:00",
     "dtend": "2023-06-01T21:00:00+09:00",
     "location": "グローバルヴィレッジ コミュニティステーション 2F",

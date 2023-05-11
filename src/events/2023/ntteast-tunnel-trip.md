@@ -2,7 +2,7 @@
 {
     "layout": "event",
     "tags": "event",
-    "name": "NTT東日本 洞道見学会",
+    "title": "NTT東日本 洞道見学会",
     "dtstart": "2023-03-23T10:00:00+09:00",
     "dtend": "2023-03-23T12:00:00+09:00",
     "location": "NTT東日本 都内某ビル",
