@@ -6,7 +6,8 @@
     "dtstart": "2023-03-23T10:00:00+09:00",
     "dtend": "2023-03-23T12:00:00+09:00",
     "location": "NTT東日本 都内某ビル",
-    "summary": "NTT東日本の洞道の見学会"
+    "summary": "NTT東日本の洞道の見学会",
+    "ogp_type": "article"
 }
 ---
 
