@@ -1,12 +1,8 @@
 {% extends "./page.njk" %}
 
-{% block title %}
-{{ name }}
-{% endblock %}
-
 {% block main %}
 <article class="h-event" itemscope itemtype="https://schema.org/Event">
-    <h1 class="p-name" itemprop="name">{{ name }}</h1>
+    <h1 class="p-name" itemprop="name">{{ title }}</h1>
     <aside>
         <p>
             開始:
