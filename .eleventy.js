@@ -13,7 +13,7 @@ module.exports = (eleventyConfig) => {
     }
   });
   eleventyConfig.addPassthroughCopy({
-    "/node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
+    "./node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
   })
   eleventyConfig.addNunjucksFilter("getNewestCollectionItemDate", pluginRss.getNewestCollectionItemDate)
   eleventyConfig.addNunjucksFilter("dateToRfc3339", pluginRss.dateToRfc3339)
