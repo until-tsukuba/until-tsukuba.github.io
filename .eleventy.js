@@ -5,7 +5,7 @@ const dateToISO8601 = require("./src/scripts/dateToISO8601.js");
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
-    baseHref: "https://until-tsukuba.github.io/"
+    baseHref: (process.env.NODE_ENV === "production" ? "https://until-tsukuba.github.io" : "http://localhost:8080")
   });
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
@@ -13,7 +13,7 @@ module.exports = (eleventyConfig) => {
     }
   });
   eleventyConfig.addPassthroughCopy({
-    "/node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
+    "./node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
   })
   eleventyConfig.addNunjucksFilter("getNewestCollectionItemDate", pluginRss.getNewestCollectionItemDate)
   eleventyConfig.addNunjucksFilter("dateToRfc3339", pluginRss.dateToRfc3339)
