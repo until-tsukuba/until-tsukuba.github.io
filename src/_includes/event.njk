@@ -24,7 +24,7 @@
         {{ content | safe }}
     </div>
     <aside>
-        <p><a href="/events">イベント一覧に戻る</a></p>
+        <p><a href='{{ "/events" | htmlBaseUrl }}'>イベント一覧に戻る</a></p>
     </aside>
 </article>
 {% endblock %}

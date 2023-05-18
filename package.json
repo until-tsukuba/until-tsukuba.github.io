@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "eleventy",
+        "build": "pnpm run build:prod",
+        "build:dev": "eleventy",
+        "build:prod": "NODE_ENV=production eleventy",
         "watch": "eleventy --serve"
     },
     "keywords": [],
