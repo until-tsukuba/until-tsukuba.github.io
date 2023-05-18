@@ -1,4 +1,4 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy")
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const dateToISO8601 = require("./src/scripts/dateToISO8601.js");
 
@@ -12,6 +12,9 @@ module.exports = (eleventyConfig) => {
       closingSingleTag: "slash"
     }
   });
+  eleventyConfig.addPassthroughCopy({
+    "/node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
+  })
   eleventyConfig.addNunjucksFilter("getNewestCollectionItemDate", pluginRss.getNewestCollectionItemDate)
   eleventyConfig.addNunjucksFilter("dateToRfc3339", pluginRss.dateToRfc3339)
 
