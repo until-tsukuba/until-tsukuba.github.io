@@ -36,8 +36,13 @@
 
 順番は当日会場でのあみだくじにて決定します。
 
-- いなにわうどん「フロントエンドと複雑GUIの話（仮）」
-- A+つくば運営チーム「チーム開発はいいゾ！　～A+つくば紹介～」
+- いなにわうどん「[フロントエンドと複雑GUIの話（仮）](https://speakerdeck.com/inaniwaudon/until-0601-2)」
+- A+つくば運営チーム「[チーム開発はいいゾ！　～A+つくば紹介～](https://speakerdeck.com/halfblue/timukai-fa-haiizo-a-plus-tukubashao-jie-until-lt-number-0x02)」
 - ちゅるり「Kotlinのすすめ」
 - てぃあ「（仮）履歴書は手書きがおすすめ」
 - Arata「ソースコードリーディングはいいぞ」
+
+### 飛び込み枠
+
+- 青木「ハッカソンのすすめ」
+- onokatio_「目指せ変態エンジニア！～ショートコーディングはいいぞ～」
