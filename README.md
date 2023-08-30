@@ -12,7 +12,7 @@
 内容は以下のcode blockをコピペする。時刻は[RFC3339](https://www.rfc-editor.org/rfc/rfc3339.html)で記述する。
 イベントidは[URL](https://datatracker.ietf.org/doc/html/rfc1738)で使える文字である必要がある。
 
-`title`、`dtstart`、`dtend`、`location`、`summary`は機械可読性を上げるために（[RSS](https://ja.wikipedia.org/wiki/RSS)や[icalendar](https://ja.wikipedia.org/wiki/icalendar)）、あえて文章の中に書くことはせず、pageのparameterとして与える方式にしている。`until-lt0x02`の[Markdown](https://github.com/until-tsukuba/until-tsukuba.github.io/blob/master/src/events/2023/until-lt0x02.md)と[HTML](https://until-tsukuba.github.io/events/2023/until-lt0x02/)を見比べるとわかるように、これら全てはHTMLにも出力される。
+`title`、`dtstart`、`dtend`、`location`、`summary`は機械可読性を上げるために（[RSS](https://ja.wikipedia.org/wiki/RSS)や[iCalendar](https://ja.wikipedia.org/wiki/ICalendar)）、あえて文章の中に書くことはせず、pageのparameterとして与える方式にしている。`until-lt0x02`の[Markdown](https://github.com/until-tsukuba/until-tsukuba.github.io/blob/master/src/events/2023/until-lt0x02.md)と[HTML](https://until-tsukuba.github.io/events/2023/until-lt0x02/)を見比べるとわかるように、これら全てはHTMLにも出力される。
 
 ```md
 ---json
