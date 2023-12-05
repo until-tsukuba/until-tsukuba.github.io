@@ -24,3 +24,19 @@
 ハッシュタグは`#until_lt0x03`です。登壇テーマを提出した際や、当日の実況などに積極的に使用してください！
 
 詳細は[connpassページ](https://until-tsukuba.connpass.com/event/302422/)をお読みください。
+
+
+## 発表テーマ
+
+- appare45「[CloudflareってIPアドレスどうなってる？](https://docs.google.com/presentation/d/e/2PACX-1vSKF_M2hLeKbFW9ghhAxmDMxeKq-6eM-_CBjGGwuBYmvGFOwrwb8EABn1MV07AycQ2yTbY-D3Xq2AEi/pub?start=false&loop=true&slide=id.p)」
+- ゆーき「[SHA(Secure Hash Algorithm)](https://key.aoki.app/notes/9mt60c2du9)」
+- なかやばし「[相互リンクにXFNを添えませんか](https://www.docswell.com/s/eniehack/57V371-until-lt0x03-xfn)」
+- whatacotton「[ArchLinuxいいよ](https://drive.google.com/file/d/1KrHj5pKqT5g25ONLgO-KbqFkjD5hh0ZW/)」
+- Ryoga.exe「[CSS黒魔術 -cssだけでモンテカルロ法を実装する- ](https://slide.ryoga.dev/posts/trick-of-css.html)」
+- sigma「フルスタックNuxt」
+- Crow314「わかるひとにはわかるインターネット」（旧題: 誰にもわかるインターネット）
+- Ekasilicon「国立国会図書館へContribute(?)しようとした話」
+- ちゅるり「[お絵かきアプリを支える技術](https://speakerdeck.com/chururi/oekakiahuriwozhi-eruji-shu)」
+- いなにわうどん「[WIP]GitHub Actionsを回してピザを頼みたい」
+- なかやばし「[メタデータで推し事しませんか](https://www.docswell.com/s/eniehack/KJL12N-until-lt0x03-metadata)」
+- ArinoriYoshiro「祝日について」
