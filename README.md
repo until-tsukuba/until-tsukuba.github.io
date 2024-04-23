@@ -23,6 +23,7 @@
     "dtstart": "{{イベント開始時間}}",
     "dtend": "{{イベント終了時間}}",
     "location": "`{{場所}}",
+    "summary": "{{概要}}"
     "ogp_type": "article"
 }
 ---
