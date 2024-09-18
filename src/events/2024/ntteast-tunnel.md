@@ -2,7 +2,7 @@
 {
     "layout": "event",
     "tags": "event",
-    "title": "NTT東日本 洞道見学会",
+    "title": "NTT東日本 とう道見学会",
     "dtstart": "2024-09-25T14:30:00+09:00",
     "dtend": "2024-09-25T17:00:00+09:00",
     "location": "NTT東日本 都内某ビル",
