@@ -6,7 +6,7 @@
     "dtstart": "2024-09-25T14:30:00+09:00",
     "dtend": "2024-09-25T17:00:00+09:00",
     "location": "NTT東日本 都内某ビル",
-    "summary": "NTT東日本の洞道の見学会",
+    "summary": "NTT東日本のとう道の見学会",
     "ogp_type": "article"
 }
 ---
