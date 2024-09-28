@@ -6,8 +6,8 @@
 <meta property="og:site_name" content="{{ ogp.site_name }}"/>
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:site" content="{{ ogp.twitter.id }}"/>
-{% if ogp_type === "article" && ogp.tags %}
-    {% for tag in ogp.tags %}
+{% if ogp_type === "article" and tags %}
+    {% for tag in tags %}
         <meta property="article:tag" content="{{ tag }}"/>
     {% endfor %}
 {% endif %}
