@@ -7,3 +7,8 @@
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:site" content="{{ ogp.twitter.id }}"/>
 <meta name="fediverse:creator" content="{{ ogp.fediverse.creator }}" />
+{% if ogp_type === "article" and tags %}
+    {% for tag in tags %}
+        <meta property="article:tag" content="{{ tag }}"/>
+    {% endfor %}
+{% endif %}
