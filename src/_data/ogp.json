@@ -5,5 +5,8 @@
   "title": "UNTIL.: UNiversity of Tsukuba Information-technology Lab.",
   "twitter": {
     "id": "@until_tsukuba"
+  },
+  "fediverse": {
+    "creator": "@until@mi.tsukuba.dev"
   }
 }
