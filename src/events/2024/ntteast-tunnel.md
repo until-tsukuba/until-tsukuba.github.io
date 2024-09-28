@@ -1,7 +1,7 @@
 ---json
 {
     "layout": "event",
-    "tags": "event",
+    "tags": ["event"],
     "title": "NTT東日本 とう道見学会",
     "dtstart": "2024-09-25T14:30:00+09:00",
     "dtend": "2024-09-25T17:00:00+09:00",
