@@ -1,7 +1,7 @@
 ---json
 {
     "layout": "event",
-    "tags": "event",
+    "tags": ["until_lt", "until_lt0x04"],
     "title": "UNTIL. LT #0x04",
     "dtstart": "2024-05-11T16:00+09:00",
     "dtend": "2024-05-11T20:00+09:00",
