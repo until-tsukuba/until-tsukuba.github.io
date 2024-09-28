@@ -5,7 +5,7 @@
     "title": "UNTIL. LT #0x05",
     "dtstart": "2024-10-05T16:00+09:00",
     "dtend": "2024-10-05T20:00+09:00",
-    "location": "未定",
+    "location": "筑波大学筑波キャンパス春日エリア 7A101",
     "summary": "筑波大学に関する情報技術者によるLT会 第0x05回",
     "ogp_type": "article"
 }
