@@ -23,14 +23,14 @@
 
 ## 発表テーマ
 ### 10分枠
-* lapla「ELFバイナリの妥当な破壊」
+* lapla「[ELFバイナリの妥当な破壊](https://slide.lapla.dev/zatsu/until0x05)」
 * Iwancof_ptr「モラトリアムを求めて」
 * maetin「分散ファイルシステムのススメ」
 
 ### 5分枠 
-* appare「コンテナイメージの中身をのぞく」
-* Nishionyama「ハイドロポンプジェネレーター」
-* whatacotton「生配信の裏方のシステムを作っている話」
+* appare「[コンテナイメージの中身をのぞく](https://www.docswell.com/s/appare45/5G1LJ4-2024-10-05-165450)」
+* Nishionyama「[ハイドロポンプ略称ジェネレーターを作った](https://docs.google.com/presentation/d/1h9Mb0vWNjHLZx6Kusx1D19N70jbJcsXN/edit)」
+* whatacotton「[生配信の裏方のシステムを作っている話](https://docs.google.com/presentation/d/1IAMXb2AzJbVaVFV4lqrMGgAWt9SrYctwDSvDv47PQec/edit)」
 * 間瀬BB「オレオレ電話してえ！」
 * cent_ra「NixOS」
 * sosukesuzuki「なんかよくわからんけどWebが壊れた」
