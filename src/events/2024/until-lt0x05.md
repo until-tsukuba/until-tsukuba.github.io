@@ -21,7 +21,20 @@
 
 ハッシュタグは`#until_lt0x05`です。登壇テーマを提出した際や、当日の実況などに積極的に使用してください！
 
-<!-- ## 発表テーマ
+## 発表テーマ
 ### 10分枠
+* lapla「[ELFバイナリの妥当な破壊](https://slide.lapla.dev/zatsu/until0x05)」
+* Iwancof_ptr「モラトリアムを求めて」
+* maetin「分散ファイルシステムのススメ」
 
-### 5分枠 -->
+### 5分枠 
+* appare「[コンテナイメージの中身をのぞく](https://www.docswell.com/s/appare45/5G1LJ4-2024-10-05-165450)」
+* Nishionyama「[ハイドロポンプ略称ジェネレーターを作った](https://docs.google.com/presentation/d/1h9Mb0vWNjHLZx6Kusx1D19N70jbJcsXN/edit)」
+* whatacotton「[生配信の裏方のシステムを作っている話](https://docs.google.com/presentation/d/1IAMXb2AzJbVaVFV4lqrMGgAWt9SrYctwDSvDv47PQec/edit)」
+* 間瀬BB「オレオレ電話してえ！」
+* cent_ra「NixOS」
+* sosukesuzuki「なんかよくわからんけどWebが壊れた」
+* Yuku Kotani「React19でお手軽にCSS-in-JSを自作する」
+
+### 飛び込み枠
+* ゆーき「JPKIの事業者になる前にマイナンバーカードのこと全部話す」
