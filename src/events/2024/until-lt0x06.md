@@ -21,7 +21,7 @@
 第 0x06 回となる今回も、自由なテーマでみなさんの好きなものを 5 分または 10 分で布教してください。技術的なことに限らず、自己紹介 LT でも構いません。
 前回同様、今回も LT 会後に懇親会を開催する予定です。登壇者以外の方から参加費を500円いただく予定です。
 
-参加・登壇を希望する人は当日までに<a href="https://connpass.com/event/330777/" target="_blank" rel="compassで参加登録">`connpass ページ`</a>より申し込みをお願いします。
+参加・登壇を希望する人は当日までに<a href="https://connpass.com/event/338604/" target="_blank" rel="compassで参加登録">`connpass ページ`</a>より申し込みをお願いします。
 
 ハッシュタグは <a href="https://twitter.com/search?q=%23until_lt0x06" target="_blank" rel="twitter検索結果">`#until_lt0x06`</a> です。登壇テーマを提出した際や、当日の実況などに積極的に使用してください！
 
