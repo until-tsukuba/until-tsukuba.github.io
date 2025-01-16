@@ -3,8 +3,8 @@
     "layout": "event",
     "tags": ["event", "until_lt", "until_lt0x05"],
     "title": "UNTIL. LT #0x06",
-    "dtstart": "2024-02-01T16:00+09:00",
-    "dtend": "2024-02-01T20:00+09:00",
+    "dtstart": "2025-02-01T16:00+09:00",
+    "dtend": "2025-02-01T20:00+09:00",
     "location": "筑波大学筑波キャンパス 3A209",
     "summary": "筑波大学に関する情報技術者によるLT会 第0x06回",
     "ogp_type": "article"
