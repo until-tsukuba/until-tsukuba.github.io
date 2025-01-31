@@ -5,17 +5,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//until./until-tsukuba.github.io//NONSGML v1.0//JP
 X-WR-TIMEZONE:UTC
-{% for event in events %}
+{%- for event in collections.event %}
 BEGIN:VEVENT
-DTSTART;TZID=UTC;VALUE=DATE-TIME:{{ event.dtstart | date | dateToISO8601 }}
-DTEND;TZID=UTC;VALUE=DATE-TIME:{{ event.dtend | date | dateToISO8601 }}
-SUMMARY:{{ event.name }}
-{% if event.location !== undefined %}
-LOCATION:{{ event.location }}
-{% endif %}
-{% if event.url !== undefined %}
-URL:{{ event.url }}
-{% endif %}
+UID:{{ event.page.fileSlug }}
+DTSTAMP:{{ event.page.date | date | dateToISO8601 }}
+DTSTART;VALUE=DATE-TIME:{{ event.data.dtstart | date | dateToISO8601 }}
+DTEND;VALUE=DATE-TIME:{{ event.data.dtend | date | dateToISO8601 }}
+SUMMARY:{{ event.data.title }}
+{% if event.data.location !== undefined -%}
+LOCATION:{{ event.data.location }}
+{%- endif %}
+{% if event.url !== undefined -%}
+URL:{{ "https://until-tsukuba.github.io" + event.url }}
+{% endif -%}
 END:VEVENT
-{% endfor %}
+{%- endfor %}
 END:VCALENDAR
