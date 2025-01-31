@@ -6,7 +6,7 @@ on:
   
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -30,7 +30,7 @@ jobs:
         run: pnpm run build
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./public"
 
@@ -46,7 +46,7 @@ jobs:
        name: github-pages
        url: https://until-tsukuba.github.io
    
-     runs-on: ubuntu-22.04
+     runs-on: ubuntu-24.04
    
      steps:
-       - uses: actions/deploy-pages@v1
+       - uses: actions/deploy-pages@v4
