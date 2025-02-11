@@ -30,7 +30,7 @@ jobs:
         run: pnpm run build
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./public"
 
@@ -49,4 +49,4 @@ jobs:
      runs-on: ubuntu-22.04
    
      steps:
-       - uses: actions/deploy-pages@v1
+       - uses: actions/deploy-pages@v4
