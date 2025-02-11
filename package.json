@@ -2,6 +2,7 @@
     "name": "until-tsukuba.github.io",
     "version": "1.0.0",
     "description": "",
+    "type": "module",
     "scripts": {
         "build": "pnpm run build:prod",
         "build:dev": "eleventy",
