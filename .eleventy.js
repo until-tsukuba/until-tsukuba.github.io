@@ -1,7 +1,6 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import dateToISO8601 from "./src/scripts/dateToISO8601.js";
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
 
 export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -13,7 +12,6 @@ export default (eleventyConfig) => {
       closingSingleTag: "slash"
     }
   });
-	eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addPassthroughCopy({
     "./node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
   })
