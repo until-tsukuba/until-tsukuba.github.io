@@ -1,6 +1,7 @@
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const dateToISO8601 = require("./src/scripts/dateToISO8601.js");
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -12,6 +13,7 @@ module.exports = (eleventyConfig) => {
       closingSingleTag: "slash"
     }
   });
+	eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addPassthroughCopy({
     "./node_modules/chota/dist/chota.min.css" : "/assets/css/chota.min.css"
   })
