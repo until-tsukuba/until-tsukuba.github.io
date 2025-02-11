@@ -15,7 +15,7 @@ SUMMARY:{{ event.data.title }}
 {% if event.data.location !== undefined -%}
 LOCATION:{{ event.data.location }}
 {%- endif %}
-{% if event.url !== undefined -%}
+{% if event.page.url !== undefined -%}
 URL:{{ event.page.url | htmlBaseUrl }}
 {% endif -%}
 END:VEVENT
