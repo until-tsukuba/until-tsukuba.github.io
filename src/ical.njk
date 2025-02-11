@@ -16,7 +16,7 @@ SUMMARY:{{ event.data.title }}
 LOCATION:{{ event.data.location }}
 {%- endif %}
 {% if event.url !== undefined -%}
-URL:{{ "https://until-tsukuba.github.io" + event.url }}
+URL:{{ event.page.url | htmlBaseUrl }}
 {% endif -%}
 END:VEVENT
 {%- endfor %}
