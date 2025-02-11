@@ -26,8 +26,16 @@
 
 ## 発表テーマ
 ### 10分枠
-未定
+* みずあめ「[AWSとCloudflareで感動のマルチベンダー](https://www.docswell.com/s/mizuame/ZXEGY3-2025-02-01-UNTIL)」
+* ゃー「日程調整ツールを作ろう ~ mitani.cs 2 (ツー) ~」
+* lapla「ソフトウェアってかなりバグっている」
+
 ### 5分枠
-未定
+* n4mlz「コンテナ小ネタ: chroot環境からjailbreakしよう」
+* Ryoga.exe 「シェルを自作して知ったあまり知られていなそうなシェルの仕様 〜シェルのマイナー仕様紹介 RTA〜」
+* Ekasilicon 「[インターネットって、何？ ～法律に聞いてみよう～](https://ekasilicon.hatenadiary.jp/entry/whatisinternetbylaw)」
+* nishinoyama 「[random file おみくじ](https://docs.google.com/presentation/d/17p9GkXCRcWgyTa4CArajWn_KZ9CiauPbOkCnWsq4Mms/edit?usp=sharing)」
+
 ### 飛び込み枠
-未定
+* 間瀬BB 「新歓パンフレットをTypstで書く」
+* Crow314「インターネットの一員になろう」
