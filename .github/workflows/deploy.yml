@@ -19,16 +19,14 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+          cache: npm
+          node-version: 20
       
       - name: Install dependencies
-        run: pnpm install
+        run: npm ci
 
       - name: Build
-        run: pnpm run build
+        run: npm run build
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

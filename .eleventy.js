@@ -1,8 +1,8 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const dateToISO8601 = require("./src/scripts/dateToISO8601.js");
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import dateToISO8601 from "./src/scripts/dateToISO8601.js";
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
     baseHref: (process.env.NODE_ENV === "production" ? "https://until-tsukuba.github.io" : "http://localhost:8080")
