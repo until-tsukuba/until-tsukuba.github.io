@@ -5,7 +5,7 @@ import dateToISO8601 from "./src/scripts/dateToISO8601.js";
 export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
-    baseHref: (process.env.NODE_ENV === "production" ? "https://until-tsukuba.github.io" : "http://localhost:8080")
+    baseHref: (process.env.NODE_ENV === "production" ? "https://until.tsukuba.dev" : "http://localhost:8080")
   });
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
