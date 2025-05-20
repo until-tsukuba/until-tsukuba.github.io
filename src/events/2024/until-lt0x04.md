@@ -28,7 +28,7 @@
 ### 10 分枠
 
 - appare45「[runc で遊ぼう](https://docs.google.com/presentation/d/e/2PACX-1vQbvGAjZX-NrWkAmfnrFjrVo29sQVckNT5C-P2DsVIUzrM9ZDLFm2AsNsh7zcItC8BOr_5mL95VsH6t/pub?start=false&loop=false&delayms=3000&slide=id.g2da8dc0f71f_0_0)」
-- Ekasilicon「さっくりわかる ActivityPub」
+- Ekasilicon「[さっくりわかる ActivityPub](https://ekasilicon.hatenadiary.jp/entry/aboutaboutactivitypub)」
 - A+つくば運営チーム「[『A+つくば』ネイティブアプリの裏側](https://speakerdeck.com/halfblue/a-plus-tukuba-neiteibuapurinoli-ce-until-lt-number-0x04)」
 
 ### 5 分枠
