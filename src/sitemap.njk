@@ -1,0 +1,18 @@
+---json
+{
+  "permalink": "sitemap.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "url": "https://until.tsukuba.dev"
+  }
+}
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for page in collections.all %}
+    {%- set absolutePageUrl = page.url | absoluteUrl(metadata.url) %}
+    <url>
+      <loc>{{ absolutePageUrl }}</loc>
+    </url>
+  {%- endfor %}
+</urlset>
