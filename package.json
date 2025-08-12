@@ -15,6 +15,6 @@
     "devDependencies": {
         "@11ty/eleventy": "^3.0.0",
         "@11ty/eleventy-plugin-rss": "^1.2.0",
-        "chota": "^0.9.2"
+        "@exampledev/new.css": "^1.1.3"
     }
 }

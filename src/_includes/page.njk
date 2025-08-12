@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <link rel="icon" size="32x32" href="{{ "/assets/img/favicon.ico" | htmlBaseUrl }}"/>
   <link rel="stylesheet" href='{{ "/assets/css/custom.css" | htmlBaseUrl }}'>
-  <link rel="stylesheet" href='{{ "/assets/css/chota.min.css" | htmlBaseUrl }}'>
+  <link rel="stylesheet" href='{{ "/assets/css/new.css" | htmlBaseUrl }}'>
   <meta name="generator" content="{{ eleventy.generator }}" />
   <title>
     {% block title %}{{ title }}{% endblock %} - UNTIL.
@@ -12,6 +12,7 @@
   {% include "components/ogp.njk" %}
   {% block head %}
   {% endblock %}
+  <link rel="alternate" type="application/atom+xml" href="{{ "/feed.xml" | htmlBaseUrl }}" title="UNTIL.イベント開催情報" />
   <meta name="google-site-verification" content="3H7Dhs52_3f1pJtfVa3WPn17qiPcvBhB5Mrrh5TwYFc" />
 </head>
 <body>
