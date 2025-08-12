@@ -31,7 +31,8 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    {% if post.data.summary %}<summary>{{ post.data.summary }}</summary>{% endif %}
+    <content xml:lang="{{ metadata.language }}" type="html"><dl>{% if post.data.dtstart %}<dt>開始</dt><dd>{{ post.data.dtstart }}</dd>{% endif %}{% if post.data.dtend %}<dt>終了</dt><dd>{{ post.data.dtend }}</dd>{% endif %}{% if post.data.location %}<dt>場所</dt><dd>{{ post.data.location }}</dd>{% endif %}</dl>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>
