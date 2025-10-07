@@ -7,7 +7,7 @@
     "dtend": "2025-09-26T16:00:00+09:00",
     "location": "NTT東日本 都内某ビル",
     "summary": "NTT東日本のとう道の見学会",
-    "datePublished": "2023-03-22T04:19:05+09:00",
+    "datePublished": "2025-08-05T19:11:10+09:00",
     "ogp_type": "article"
 }
 ---
