@@ -7,6 +7,7 @@
     "dtend": "2024-05-11T20:00+09:00",
     "location": "筑波大学 3A209",
     "summary": "筑波大学に関する情報技術者によるLT会 第0x04回",
+    "datePublished": "2024-04-23T21:52:50+09:00",
     "ogp_type": "article"
 }
 ---
