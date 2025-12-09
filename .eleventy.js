@@ -22,6 +22,13 @@ export default (eleventyConfig) => {
   eleventyConfig.addNunjucksFilter("date", function(str) {
     return new Date(str);
   });
+  eleventyConfig.addNunjucksFilter("futureEvents", (events, limit) => {
+    const now = new Date();
+    return events
+      .filter(event => new Date(event.data.dtstart) >= now)
+      .sort((a, b) => new Date(a.data.dtstart) - new Date(b.data.dtstart))
+      .slice(0, limit);
+  });
 
   return {
     dir: {
