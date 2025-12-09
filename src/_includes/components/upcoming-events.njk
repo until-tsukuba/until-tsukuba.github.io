@@ -1,0 +1,25 @@
+{%- set eventLimit = eventsListLimit | default(3) %} {# デフォルト値は3 #}
+{%- set upcoming = collections.event | futureEvents(eventLimit) %}
+
+{%- if upcoming.length > 0 %}
+    <div>
+    {%- for event in upcoming %}
+        <a href="{{ event.url | htmlBaseUrl }}">
+            <article>
+                <h2>{{ event.data.title }}</h2>
+                <p>{{ event.data.summary }}</p>
+                <p>
+                    <time datetime="{{ event.data.dtstart }}">{{ event.data.dtstart }}</time>
+                    〜
+                    <time datetime="{{ event.data.dtend }}">{{ event.data.dtend }}</time>
+                </p>
+                <p>場所: {{ event.data.location }}</p>
+            </article>
+        </a>
+    {%- endfor %}
+    </div>
+{%- else %}
+    <div>
+        <p>現在予定されているイベントはありません。</p>
+    </div>
+{%- endif %}

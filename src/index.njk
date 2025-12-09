@@ -28,6 +28,13 @@ ogp_type: "website"
         </ul>
     </section>
     <section>
+        <h1>直近のイベント予定</h1>
+        {%- set eventsListLimit = 3 %}
+        {% include "components/upcoming-events.njk" %}
+        <hr>
+        <p><a href="{{ "/events" | htmlBaseUrl }}">全てのイベントを確認する</a>（<a href="{{ "/feed.xml" | htmlBaseUrl }}">RSS Feed</a> / <a href="{{ "/events.ics" | htmlBaseUrl }}">iCal</a>）</p>
+    </section>
+    <section>
         <h1>UNTIL.に参加するには</h1>
         <p>UNTIL.はDiscordを使って活動しています。UNTIL. Discordに参加するには4つの方法があります:</p>
         <ol>
