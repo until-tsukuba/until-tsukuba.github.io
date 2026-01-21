@@ -12,7 +12,7 @@
 }
 ---
 
-<!-- <img src="/assets/img/until_lt_poster_8th.webp" height=600> -->
+<img src="/assets/img/until-poster-0x09.webp" height=600>
 
 筑波大学に関わる情報技術者による LT 会 「UNTIL. LT」 の第 0x09 回 です。
 
