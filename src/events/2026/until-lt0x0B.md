@@ -34,9 +34,20 @@ UNTIL. LT は、技術の話に限らず、趣味や最近気になっている�
 ハッシュタグは `#until_lt0x0b` です。<br />
 登壇テーマの共有や、当日の実況・感想などにぜひご利用ください。
 
-<!--
 ## 発表テーマ
 ### 10分枠
+* ろろ「[FeliCaを使うのやめよう](https://roro.ro/slide/dont_use_felica/)」
+* Myxogastria0808「[現代数学入門](https://github.com/Myxogastria0808/category-theory-slides/blob/main/UNTIL_LT_0x0B/main.pdf)」
+* 中村壮馬「コーディングエージェントを作り開発を超効率化しよう」
 
 ### 5分枠
--->
+* Ekasilicon「X乗っ取りツールの挙動を学んで他人のアカウントを乗っ取れるようになろう！！！」
+* ゃー「自作言語にtraitを入れたくなったときに考えること」
+* fluk3k1t「絶対に電源が切れないアラームを作りたい」
+* Nasu「赤ぶーで働いた話」
+* Astalum「日程調整アプリへの提言」
+
+### 飛び込み枠
+* Lai_lai「AnsibleでAIと始めるお家監視入門」
+* ろろ「[Netflixを自室でも見れるようにした話](https://roro.ro/slide/netflix_via_vpn/)」
+* ゆーき「SuiCash」
