@@ -2,6 +2,7 @@
 <html lang="ja">
 <head prefix="og:http://ogp.me/ns#">
   <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="icon" size="32x32" href="{{ "/assets/img/favicon.ico" | htmlBaseUrl }}"/>
   <link rel="stylesheet" href='{{ "/assets/css/custom.css" | htmlBaseUrl }}'>
   <link rel="stylesheet" href='{{ "/assets/css/new.css" | htmlBaseUrl }}'>
@@ -9,6 +10,7 @@
   <title>
     {% block title %}{{ title }}{% endblock %} - UNTIL.
   </title>
+  <meta name="description" content="{{ summary | default(ogp.description) }}"/>
   {% include "components/ogp.njk" %}
   {% block head %}
   {% endblock %}
