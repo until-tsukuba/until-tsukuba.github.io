@@ -11,6 +11,7 @@
     {% block title %}{{ title }}{% endblock %} - UNTIL.
   </title>
   <meta name="description" content="{{ summary | default(ogp.description, true) }}"/>
+  <link rel="canonical" href="{{ page.url | htmlBaseUrl }}"/>
   {% include "components/ogp.njk" %}
   {% block head %}
   {% endblock %}
