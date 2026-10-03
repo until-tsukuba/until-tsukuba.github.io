@@ -1,5 +1,5 @@
 <meta property="og:title" content="{{ title | default(ogp.title) }}"/>
-<meta property="og:description" content="{{ summary | default(ogp.description) }}"/>
+<meta property="og:description" content="{{ summary | default(ogp.description, true) }}"/>
 <meta property="og:url" content="{{ page.url | htmlBaseUrl }}"/>
 <meta property="og:image" content="{{ ogp.image | htmlBaseUrl }}"/>
 <meta property="og:type" content='{{ ogp_type | default("webpage") }}'/>

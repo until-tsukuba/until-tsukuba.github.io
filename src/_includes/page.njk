@@ -10,7 +10,7 @@
   <title>
     {% block title %}{{ title }}{% endblock %} - UNTIL.
   </title>
-  <meta name="description" content="{{ summary | default(ogp.description) }}"/>
+  <meta name="description" content="{{ summary | default(ogp.description, true) }}"/>
   {% include "components/ogp.njk" %}
   {% block head %}
   {% endblock %}
