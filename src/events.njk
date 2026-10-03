@@ -1,6 +1,6 @@
 ---
 layout: page
-ogp_type: "webpage"
+ogp_type: "website"
 title: イベント一覧
 summary: "筑波大学の情報系技術者コミュニティ UNTIL. が主催するLT会や見学会などのイベントの一覧です。"
 ---
@@ -13,7 +13,7 @@ summary: "筑波大学の情報系技術者コミュニティ UNTIL. が主催�
     {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <a href="{{ absolutePostUrl }}">
       <article class="card">
-        <h1>{{ post.data.name }}</h1>
+        <h1>{{ post.data.title }}</h1>
         <p>{{ post.data.summary }}</p>
         <p>
           <time datetime="{{ post.data.dtstart }}">
