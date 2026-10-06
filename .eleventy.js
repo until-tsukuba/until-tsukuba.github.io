@@ -1,6 +1,7 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import dateToISO8601 from "./src/scripts/dateToISO8601.js";
+import siteJsonLd from "./src/scripts/siteJsonLd.js";
 
 export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -19,6 +20,7 @@ export default (eleventyConfig) => {
   eleventyConfig.addNunjucksFilter("dateToRfc3339", pluginRss.dateToRfc3339)
 
   eleventyConfig.addNunjucksFilter("dateToISO8601", dateToISO8601);
+  eleventyConfig.addNunjucksFilter("siteJsonLd", siteJsonLd);
   eleventyConfig.addNunjucksFilter("date", function(str) {
     return new Date(str);
   });

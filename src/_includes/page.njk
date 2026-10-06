@@ -10,9 +10,12 @@
   <title>
     {% block title %}{{ title }}{% endblock %} - UNTIL.
   </title>
-  <meta name="description" content="{{ summary | default(ogp.description, true) }}"/>
+  <meta name="description" content="{{ summary | default(site.ogp.description, true) }}"/>
   <link rel="canonical" href="{{ page.url | htmlBaseUrl }}"/>
   {% include "components/ogp.njk" %}
+  {% if page.url == "/" %}
+  <script type="application/ld+json">{{ site.organization | siteJsonLd | safe }}</script>
+  {% endif %}
   {% block head %}
   {% endblock %}
   <link rel="alternate" type="application/atom+xml" href="{{ "/feed.xml" | htmlBaseUrl }}" title="UNTIL.イベント開催情報" />
