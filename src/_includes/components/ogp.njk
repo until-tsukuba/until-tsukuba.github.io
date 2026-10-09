@@ -1,12 +1,12 @@
-<meta property="og:title" content="{{ title | default(ogp.title) }}"/>
-<meta property="og:description" content="{{ summary | default(ogp.description, true) }}"/>
+<meta property="og:title" content="{{ title | default(site.ogp.title) }}"/>
+<meta property="og:description" content="{{ summary | default(site.ogp.description, true) }}"/>
 <meta property="og:url" content="{{ page.url | htmlBaseUrl }}"/>
-<meta property="og:image" content="{{ ogp.image | htmlBaseUrl }}"/>
+<meta property="og:image" content="{{ site.ogp.image | htmlBaseUrl }}"/>
 <meta property="og:type" content='{{ ogp_type | default("website") }}'/>
-<meta property="og:site_name" content="{{ ogp.site_name }}"/>
+<meta property="og:site_name" content="{{ site.ogp.site_name }}"/>
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:site" content="{{ ogp.twitter.id }}"/>
-<meta name="fediverse:creator" content="{{ ogp.fediverse.creator }}" />
+<meta property="twitter:site" content="{{ site.organization.accounts.twitter.handle }}"/>
+<meta name="fediverse:creator" content="{{ site.organization.accounts.misskey.handle }}" />
 {% if ogp_type === "article" and tags %}
     {% for tag in tags %}
         <meta property="article:tag" content="{{ tag }}"/>
